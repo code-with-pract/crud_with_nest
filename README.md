@@ -91,3 +91,6 @@ command -> nest g res todos then Rest api -> yes
 nest generate -help
 nest generate module
 nest generate controller
+
+For validatation command
+npm i --save class-validator class-transformer
