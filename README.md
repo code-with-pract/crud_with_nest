@@ -87,3 +87,7 @@ For database => npm install --save @nestjs/typeorm typeorm mysql2
 
 for generate crud entry point
 command -> nest g res todos then Rest api -> yes
+
+nest generate -help
+nest generate module
+nest generate controller
