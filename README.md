@@ -79,7 +79,7 @@ step1). First we need to install CLI for intalling globally
 npm i -g @nestjs/cli
 
 2). second for intalling the nest project
-cmd -: nest new backend
+cmd -: nest new backend(Your Project Name)
 
 For dotenv => npm i --save @nestjs/config
 

@@ -6,6 +6,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config'
 import { UserModule } from './user/user.module'
 import { User } from './user/entities/user.entity'
 import { join } from 'path'
+import { CategoryModule } from './category/category.module';
 
 @Module({
   imports: [
@@ -28,6 +29,8 @@ import { join } from 'path'
     }),
 
     UserModule,
+
+    CategoryModule,
   ],
   controllers: [AppController],
   providers: [AppService],

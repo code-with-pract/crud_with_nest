@@ -93,7 +93,7 @@
     "semi": false
   },
   "lint-staged": {
-    "*.js": [
+    "*.ts": [
       "eslint --fix",
       "prettier --write",
       "git add"
